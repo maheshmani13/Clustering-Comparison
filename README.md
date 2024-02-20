@@ -13,9 +13,14 @@ Three type of clustering methods used are :
 ## Dataset
 
 The dataset used here is **Anuran Calls (MFCCs)**. 
+We have taken it from UCI datset library.
+
 This dataset has Acoustic features extracted from syllables of anuran (frogs) calls, including the family, the genus, and the species labels. 
+
 Number of Instances (records in our data set): 7195
-Number of Attributes (fields within each record): 22
+
+Number of Attributes (fields within each record): 24 + 1 (ID)
+
 This dataset was used in several classifications tasks related to the challenge of anuran species recognition through their calls. It is a multilabel dataset with three columns of labels. This dataset was created segmenting 60 audio records belonging to 4 different families, 8 genus, and 10 species. Each audio corresponds to one specimen (an individual frog), the record ID is also included as an extra column.
 
 
